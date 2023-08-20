@@ -2,10 +2,15 @@
     background: linear-gradient(to top,rgba(0, 0, 0, 0.499),rgba(0, 0, 0, 0.453)), url("images/water\ dam.jpg");
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+}
+#background #back-img img{
+    background: linear-gradient(rgba(0, 0, 255, 0.582),rgba(255, 166, 0, 0.5),rgba(255, 0, 0, 0.493),rgba(255, 255, 0, 0.603));
 }
 
 
-@media (min-width:200px) and (max-width:500px){
+@media (min-width:0px) and (max-width:500px){
+    /* landing page =================== */
     #header-ul{
         display: none;
     }
@@ -13,42 +18,133 @@
         display: block;
     }
     #landingpage{
-        height: 137vh;
+        height: 100vh;
     }
     #landingpage div{
         flex-direction: column;
-    }
-    #landingpage h1{
-        font-size: 2.4rem;
-        font-weight: 700;
-    }
-    #landingpage p{
-        font-size: 1rem;
-        width: 80%;
-        text-align: center;
-        /* font-weight: 700; */
-    }
-}
-@media (min-width:501px) and (max-width:800px){
-    #header-ul{
-        display: none;
-    }
-    #header-menu{
-        display: block;
-    }
-    #landingpage{
-        height: 120vh;
     }
     #landingpage h1{
         font-size: 3rem;
         font-weight: 700;
     }
     #landingpage p{
-        font-size: 1rem;
+        font-size: 1.2rem;
+        width: 80%;
+        text-align: center;
+    }
+    #landingpage div button{
+        padding: 10px 40px;
+    }
+    /* background ========================= */
+    #background{
+        margin: 8vh 0 0 0;
+        height: 170vh;
+        flex-direction: column;
+    }
+    #background #back-img{
+        width: 100%;
+    }
+    #background #back-img div{
+        width: 100%;
+    }
+    #background #back-text{
+        width: 90%;
+        padding: 5vh 0 10vh 0;
+    }
+    #background #back-text h1{
+        font-size: 3rem;
+    }
+    #background #back-text p{
+        width: 100%;
+    }
+    /* construction */
+    #construction{
+        margin-top: 50vh;
+        height: 360vh;
+    }
+    #construction #stages{
+        flex-direction: column;
+    } 
+    #construction #stages div{
+        width: 100%;
+    }
+}
+@media (min-width:501px) and (max-width:800px){
+    /* landing page =================== */
+    #header-ul{
+        display: none;
+    }
+    #header-menu{ 
+        display: block;
+    }
+    #landingpage{
+        height: 100vh;
+    }
+    #landingpage h1{
+        font-size: 5.3rem;
+        font-weight: 700;
+    }
+    #landingpage p{
+        font-size: 1.2rem;
+        /* font-weight: 700; */
+    }
+    /* background ========================= */
+    #background{
+        margin-top: 50vh;
+        margin: 15vh 0 0 0;
+        height: 190vh;
+        flex-direction: column;
+    }
+    #background #back-img{
+        width: 90%;
+    }
+    #background #back-img div{
+        width: 100%;
+    }
+    #background #back-text{
+        width: 90%;
+        padding: 5vh 0 10vh 0;
+    }
+    #background #back-text p{
+        width: 100%;
+    }
+    /* construction */
+    #construction{
+        margin-top: 50vh;
+        height: 380vh;
+    }
+    #construction #stages{
+        flex-direction: column;
+    } 
+    #construction #stages div{
+        width: 100%;
+    }
+}
+@media (min-width:801px) and (max-width:1100px){
+    /* landing page =================== */
+    #landingpage{
+        height: 90vh;
+    }
+    #landingpage h1{
+        font-size: 6rem;
+        font-weight: 700;
+    }
+    #landingpage p{
+        font-size: 1.4rem;
         /* font-weight: 700; */
     }
 }
-@media (min-width:900px) and (max-width:1100px){
-    
-}
+@media (min-width:1101px){
+    /* #landingpage{
+        height: 100vh;
+    }
+    #landingpage h1{
+        font-size: 6rem;
+        font-weight: 700;
+    }
+    #landingpage p{
+        font-size: 1.4rem;
+        /* font-weight: 700; */
+    /* } */ 
 
+}
