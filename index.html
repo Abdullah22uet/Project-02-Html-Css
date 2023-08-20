@@ -7,7 +7,7 @@
     <!-- font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- icon cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- style sheet -->
@@ -19,13 +19,13 @@
 </head>
 <body class="font-[Poppins,cursive] box-border">
     <!-- header section -->
-    <header class="w-[90%] mx-auto bg-[#836096]">
+    <header class="w-[90%] mx-auto bg-[#050573]">
         <nav class="flex justify-between items-center h-[9vh]">
             <div>
                 <img src="images/logo.png" alt="logo..." class="h-auto w-24 ml-6">
             </div>
             <div>
-                <ul id="header-ul" class="lg:flex gap-11 mr-6 text-white">
+                <ul id="header-ul" class="flex gap-11 mr-6 text-white">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Portfolio</a></li>
@@ -42,11 +42,50 @@
 
     <!-- landing page -->
     <section id="landingpage" class="h-[100vh] w-full flex flex-col justify-center items-center">
-        <h1 class="text-7xl font-bold text-[#ede6e6] mb-7">Terbela<b class="text-[#EBE76C]">.</b>Dem</h1>
+        <h1 class="font-[Lobster,cursive] text-6xl font-bold text-[#ede6e6] mb-7">Tarbela<b class="text-[#EBE76C]">.</b>Dam</h1>
         <p class="w-3/5 text-[#dbd7d7] text-center">Tarbela Dam is an earth-filled dam along the Indus River in Pakistan's Khyber Pakhtunkhwa province. Located mainly in the Swabi district of the province, The dam is about 30 km from the city of Swabi, 105 km northwest of Islamabad, and 125 km east of Peshawar. It is the largest earth-filled dam in the world.</p>
         <div class="flex mt-12 gap-3">
-            <button class="px-5 py-3 bg-[#F0B86E] rounded-sm text-black border-2 border-solid border-transparent hover:bg-transparent hover:border-2 hover:border-solid hover:border-[#EBE76C] hover:text-white transition-all duration-500">Visit Tomorrow</button>
-            <button class="px-5 py-3 bg-[#EBE76C] rounded-sm text-black border-2 border-solid border-transparent hover:bg-transparent hover:border-2 hover:border-solid hover:border-[#F0B86E] hover:text-white transition-all duration-500">Adventure Plan</button>
+            <button class="px-5 py-3 bg-[#F0B86E] rounded-md text-black border-2 border-solid border-transparent hover:bg-transparent hover:border-2 hover:border-solid hover:border-[#EBE76C] hover:text-white transition-all duration-500 shadow-md shadow-[#a0a3a2] ">Visit Tomorrow</button>
+            <button class="px-5 py-3 bg-[#EBE76C] rounded-md text-black border-2 border-solid border-transparent hover:bg-transparent hover:border-2 hover:border-solid hover:border-[#F0B86E] hover:text-white transition-all duration-500 shadow-md shadow-[#a0a3a2]">Adventure Plan</button>
+        </div>
+    </section>
+
+    <!--Background section  -->
+    <section id="background" class="h-[130vh] flex justify-center items-center">
+        <div id="back-img" class="w-1/2 flex justify-center">
+            <div class="w-[70%] overflow-hidden rounded-lg">
+            <img src="images/backgroundd.jpg" alt="loading..." class="w-[100%] gra p-0 hover:scale-110 transition-all duration-1000 hover:cursor-pointer">
+            </div>
+        </div>
+        <div id="back-text" class="w-1/2 h-[80vh] flex flex-col items-start">
+            <h1 class="text-6xl mb-8 font-[Lobster,cursive] font-bold text-[#3b3d3c]">Background</h1>
+            <p class="w-[80%] text-[#525453] leading-8 tracking-[1px]">Tarbela Dam was constructed as part of the Indus Basin Project after signing of the 1960 Indus Waters Treaty between India and Pakistan. The purpose was to compensate for the loss of water supplies of the eastern rivers (Ravi, Sutlej and Beas) that were designated for exclusive use by India per terms of the treaty.[8] By the mid-1970s, power generation capacity was added in three subsequent hydro-electrical project extensions which were completed in 1992, installing a total of 3,478 MW generating capacity.</p>
+            <button class="mt-10 px-10 py-3 bg-[#EBE76C] border-2 border-solid border-transparent hover:bg-[#EBE76C] hover:shadow-xl hover:shadow-[#a0a3a2] transition-all duration-700 shadow-md shadow-[#a0a3a2]">Search More</button>
+        </div>
+    </section>
+
+    <!-- construction -->
+    <section id="construction" class="w-screen h-auto py-10 flex flex-col justify-center items-center bg-[#0d0d30]">
+        <h1 class="text-6xl font-bold font-[Lobster,cursive] text-[#f0f0f2] pb-10">Construction</h1>
+        <div id="stages" class="flex flex-wrap justify-center w-[90%] gap-6">
+            <!-- stage 1 -->
+            <div class="w-[30%] flex flex-col shadow-md shadow-slate-600 rounded-md hover:shadow-slate-400 hover:shadow-xl transition-all duration-500 hover:cursor-pointer">
+                <img src="images/stage 1.jpg" alt="loading..." class="w-[100%] rounded-md">
+                <h2 class="text-[#f0f0f2] text-2xl font-bold font-[Lobster,cursive] py-3 px-3">Stage 1</h2>
+                <p class="text-[#cfcfd1] leading-6 tracking-[1px] text-left px-3" >In the first stage, the Indus River was allowed to flow in its natural channel, while construction works commenced on the right bank where a 1,500 feet (460 meters) long and 694.8 feet (211.8 meters) wide diversion channel was being excavated along with a 105 feet (32 meters) high buttress dam that was also being constructed. Stage 1 construction lasted approximately 2.5 years.</p>
+            </div>
+            <!-- stage 2 -->
+            <div class="w-[30%] flex flex-col shadow-md shadow-slate-600 rounded-md hover:shadow-slate-400 hover:shadow-xl transition-all duration-500 hover:cursor-pointer">
+                <img src="images/stage 2.jpg" alt="loading..." class="w-[100%] rounded-md">
+                <h2 class="text-[#f0f0f2] text-2xl font-bold font-[Lobster,cursive] py-3 px-3">Stage 2</h2>
+                <p class="text-[#cfcfd1] leading-6 tracking-[1px] text-left px-3">The main embankment dam and the upstream blanket were constructed across the main valley of the river Indus as part of the second stage of construction. During this time, water from the Indus river remained diverted through the diversion channel. By the end of construction works in stage 2, tunnels had been built for diversion purposes. Stage 2 construction took 3 years to complete.</p>
+            </div>
+            <!-- stage 3 -->
+            <div class="w-[30%] flex flex-col shadow-md shadow-slate-600 rounded-md hover:shadow-slate-400 hover:shadow-xl transition-all duration-500 hover:cursor-pointer">
+                <img src="images/stage 3.jpg" alt="loading..." class="w-[100%] rounded-md">
+                <h2 class="text-[#f0f0f2] text-2xl font-bold font-[Lobster,cursive] py-3 px-3">stage 3</h2>
+                <p class="text-[#cfcfd1] leading-6 tracking-[1px] text-left px-3" >Under the third stage of construction, works were carried out on the closure of diversion channel and construction of the dam in that portion while the river was made to flow through diversion tunnels. The remaining portion of upstream blanket and the main dam at higher levels was also completed as part of stage 3 works, which were concluded in 1976.</p>
+            </div>
         </div>
     </section>
 </body>
