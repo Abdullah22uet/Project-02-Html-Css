@@ -38,7 +38,7 @@
     /* background ========================= */
     #background{
         margin: 8vh 0 0 0;
-        height: 170vh;
+        height: 180vh;
         flex-direction: column;
     }
     #background #back-img{
@@ -90,7 +90,7 @@
     }
     /* background ========================= */
     #background{
-        margin-top: 50vh;
+        margin-top: 80vh;
         margin: 15vh 0 0 0;
         height: 190vh;
         flex-direction: column;
@@ -111,7 +111,7 @@
     /* construction */
     #construction{
         margin-top: 50vh;
-        height: 380vh;
+        height: 400vh;
     }
     #construction #stages{
         flex-direction: column;
